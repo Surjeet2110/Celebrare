@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Uploader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image Uploader</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <div class="preview-container">
+            <div id="imageWrapper">
+                <canvas id="imageCanvas"></canvas>
+                <img id="uploadedImage" src="#" alt="Uploaded Image">
+            </div>
+        </div>
+        <div class="shape-options">
+            <button data-shape="circle">Circle</button>
+            <button data-shape="heart">Heart</button>
+            <button data-shape="square">Square</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
